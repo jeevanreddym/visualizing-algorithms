@@ -1,0 +1,10 @@
+
+
+.bar-container {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    height: 200px;
+    transition: all 500ms ease;
+    box-sizing: border-box;
+}

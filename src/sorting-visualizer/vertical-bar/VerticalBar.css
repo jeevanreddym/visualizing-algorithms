@@ -1,0 +1,56 @@
+
+
+@-webkit-keyframes slide {
+    0% {
+        transform: translate3d(50px, 40px, 0px);
+        animation-timing-function: ease-in;
+    }
+    50% {
+        transform: translate3d(50px, 50px, 0px);
+        animation-timing-function: ease-out;
+    }
+    100% {
+        transform: translate3d(50px, 40px, 0px);
+    }
+}
+@keyframes slide {
+    0% {
+        transform: translate3d(50px, 40px, 0px);
+        animation-timing-function: ease-in;
+    }
+    50% {
+        transform: translate3d(50px, 50px, 0px);
+        animation-timing-function: ease-out;
+    }
+    100% {
+        transform: translate3d(50px, 40px, 0px);
+    }
+}
+
+
+.vertical-bar {
+    display: inline-block;
+    margin: 1px;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 2px #ccc;
+
+
+    width: 20px;
+
+
+    background-color: cyan;
+    atransition: height 2s, background-color 2s, transform 2s ease-in-out;
+    atransform: translate3d(50px, 50px, 0);
+
+    atransform: translateX(100%);
+    atransition: transform 0.3s ease-in-out;
+
+    aanimate: slide 2s infinite;
+
+    transition: all 500ms ease-in-out;
+}
+
+.current {
+    background-color: mediumvioletred;
+}
+

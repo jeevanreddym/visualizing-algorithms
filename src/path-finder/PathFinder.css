@@ -1,0 +1,20 @@
+
+
+.buttons-panel > * {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px 5px;
+}
+
+.path-finder-label {
+    padding-right: 500px;
+    font-size: 32px;
+    font-family: "Calibri Light";
+    font-weight: bold;
+}
+
+.buttons-panel > button, select {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}

@@ -1,0 +1,30 @@
+
+
+.cell {
+    display: inline-block;
+    margin: 0px;
+    border: 1px solid #eee;
+    width: 25px;
+    height: 25px;
+    background-color: cyan;
+}
+
+.visited {
+    background-color: darkorange;
+}
+
+.wall {
+    background-color: indigo;
+}
+
+.shortest-path {
+    background-color: springgreen;
+}
+
+.processing {
+    background-color: blueviolet;
+}
+
+.cell:hover {
+    cursor: pointer;
+}

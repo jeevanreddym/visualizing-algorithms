@@ -1,0 +1,21 @@
+
+
+#contentContainer {
+    width: 550px;
+    height: 350px;
+    border: 10px solid #eee;
+    overflow: hidden;
+    background-color: #F2F2F2;
+    cursor: pointer;
+}
+
+.circle {
+    width: 75px;
+    height: 75px;
+    background-color: rgb(225, 207, 0);
+    border-radius: 50%;
+    border: 15px rgb(225, 199, 0);
+
+    transform: translate3d(50px, 50px, 0);
+    transition: transform .5s cubic-bezier(0, .64, .52, .24);
+}
